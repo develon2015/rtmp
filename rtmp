@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo ./nginx -c nginx.conf  -p /home/kasumi/nginx "$@"
+sudo ./nginx -c nginx.conf  -p $(pwd) "$@"
 
